@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    
+            <!-- default values -->
+    <head>
+        <title>This is not a part of hello world</title>
+        <link rel = "icon" type = "image/x-icon" href ="images/get_started16.png">
+        <!--
+        <style> body {background-color : powderblue;}
+            h1 {color: blue;}
+            p {color: red;}
+            
+        </style>
+        -->
+        <style>
+            table, td, th {/*
+                border: 4px solid black;
+                /*border-collapse: collapse;*/
+                /*border-radius: 10px;*/
+               /* border: dashed;*/
+            }
+           /* th, td {
+                background-color:magenta;
+            }*/
+            th{
+                text-align: center;
+            }
+           /* th:nth-child(even) {
+                background-color: red;
+            }
+            td:nth-child(odd) {
+                background-color: rgb(1, 148, 21);
+            }
+            tr:nth-child(odd) {
+                background-color: rgba(123,141,231,0.2);
+            }*/
+            td{
+                border-bottom: 1px solid #ddd;
+            }
+            /*tr:hover{
+                background-color: greenyellow;
+            }*/
+            th:hover, td:hover{
+                background-color: white;
+            }
+           
+        </style>
+        
+    <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style = "text-align: center;">Hello world</h1>
+        <p><a href = "#ImageLink">Jump to Amazon Image Link</a></p>
+        <a href = "https://www.amazon.com/"> AMAZON LINK</a> <br>
+        <img src="get_started128.png" style="height:104px;width: 255;">
+        <h1 style = "background-color: rgb(65, 202, 53);"> below is an image that acts as a hyper link</h1> <br>
+        <a href = "https://www.amazon.com/" title = "Link Goes to Amazon" id = "ImageLink">  <img src="get_started128.png" width="104" height="142"></a><br>
+        <img src = "https://image.shutterstock.com/image-vector/shopping-cart-vector-icon-flat-260nw-1690453492.jpg" alt = "just incase you cant see the picture, you get to read this" width="104" height="142">
+        <p style="color:#FF9089">This Paragraph is colored</p>
+        <br>
+        <p title = "I was made using the title attribute but am also a tool tip"> This is a pragraph that has some tool tip when you hover over it</p><br>
+        <pre style = "background-color: rebeccapurple;"> This is a formatted ouput
+            Im putting an extra line here to test out the output.
+
+
+
+            The is the end
+        </pre>
+        <p><img src="images/smile.png" style="width:128px;height:128px;float:right"> There is a smiley face to the right of this text that is floating</p>
+        <p><b>bold </b> <strong>strong</strong> <i>Italic</i> <em>emphasis</em> <mark>mark</mark> <small>small</small> <del>delete</del> <ins>underline</ins> <sub>subscript</sub> <sup>superscript</sup></p>
+        <p>Here is a quote from wikipedia</p>
+        <blockquote cite = "https://en.wikipedia.org/wiki/F._W._de_Klerk">Born in Johannesburg to an influential Afrikaner family, de Klerk studied at Potchefstroom University 
+            before pursuing a career in law. Joining the NP, to which he had family ties, he was elected to parliament and sat in the white-minority government of P. W. Botha, 
+            holding a succession of ministerial posts. As a minister, he supported and enforced apartheid, a system of racial segregation that privileged white South Africans. 
+            After Botha resigned in 1989, de Klerk replaced him, first as leader of the NP and then as State President
+        </blockquote>
+        <p>this is a quote <q>Inside quotation marks</q></p>
+        <p> "Hello world"</p>
+        <p>www is an abbreviation <abbr title = "World Wide Web">WWW    </abbr></p>
+        <address>
+            Name<br>
+            Street<br>
+            State<br>
+            otherstuff
+        </address>
+        <!-- This is a comment -->
+        <p style = "border:5px dotted Tomato">This is a bordered text</p>
+        <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+
+        <!--HyperLink Teseting-->
+        <a href="https://www.google.com/" target = "_self">open link on self</a><br>
+        <a href="https://www.google.com/" target = "_blank">open link on new tab</a><br>
+        <a href="https://www.google.com/" target = "_parent">open link on parent</a><br>
+        <a href="https://www.google.com/" target = "_top">open link in a new window</a><br>
+        <a href="mailto:ryanhan1201@berkeley.edu" title = "ryanhan1201@berkeley.edu">email</a>
+        <!--will come back when fully understand-->
+        <button onclick ="document.location='default.asp'">SelfWeb</button>
+        <table>
+            <caption>Some Table</caption>
+            <tr>
+                <th>Head 1</th>
+                <th>Head 2</th>
+                <th>Head 3</th>
+            </tr>
+            <tr>
+                <td>Row 1 Data 1</td>
+                <td>Row 1 Data 2</td>
+                <td>Row 1 Data 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Data 1</td>
+                <td>Row 2 Data 2</td>
+                <td>Row 2 Data 3</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan = "2">Name</th>
+                <th>Number</th>
+            </tr>
+            <tr>
+                <td>Name 1</td>
+                <td>Name 2</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <ul>
+           <li>Coffee</li>
+           <li>Tea</li>
+           <li>Milk</li>
+        </ul> 
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <ul>
+                <li>Green</li>
+                <li>Black</li>
+            </ul>
+            <li>Milk</li>
+          </ol> 
+          <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+          </dl> 
+    </body>
+</html>
